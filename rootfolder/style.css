@@ -1,0 +1,254 @@
+Html, body, div, span, object, iframe,
+H1, h2, h3, h4, h5, h6, p, blockquote, pre,
+Abbr, address, cite, code,
+Del, dfn, em, img, ins, kbd, q, samp,
+Small, strong, sub, sup, var,
+B, I,
+Dl, dt, dd, ol, ul, li,
+Fieldset, form, label, legend,
+Table, caption, tbody, tfoot, thead, tr, th, td,
+Article, aside, canvas, details, figcaption, figure,
+Footer, header, hgroup, menu, nav, section, summary,
+Time, mark, audio, video {
+    Margin:0;
+    Padding:0;
+    Border:0;
+    Outline:0;
+    Font-size:100%;
+    Vertical-align:baseline;
+    Background:transparent;
+}
+
+Body {
+    Line-height:1;
+}
+
+Article,aside,details,figcaption,figure,
+Footer,header,hgroup,menu,nav,section {
+    Display:block;
+}
+
+Nav ul {
+    List-style:none;
+}
+
+Blockquote, q {
+    Quotes:none;
+}
+
+Blockquote:before, blockquote:after,
+Q:before, q:after {
+    Content:’’;
+    Content:none;
+}
+
+A {
+    Margin:0;
+    Padding:0;
+    Font-size:100%;
+    Vertical-align:baseline;
+    Background:transparent;
+}
+
+/* change colours to suit your needs */
+Ins {
+    Background-color:#ff9;
+    Color:#000;
+    Text-decoration:none;
+}
+
+/* change colours to suit your needs */
+Mark {
+    Background-color:#ff9;
+    Color:#000;
+    Font-style:italic;
+    Font-weight:bold;
+}
+
+Del {
+    Text-decoration: line-through;
+}
+
+Abbr[title], dfn[title] {
+    Border-bottom:1px dotted;
+    Cursor:help;
+}
+
+Table {
+    Border-collapse:collapse;
+    Border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+Hr {
+    Display:block;
+    Height:1px;
+    Border:0;
+    Border-top:1px solid #cccccc;
+    Margin:1em 0;
+    Padding:0;
+}
+
+Input, select {
+    Vertical-align:middle;
+}
+
+/*--MY_CODE--*/
+
+* {
+  text-decoration: none;
+}
+
+@font-face {
+  src: url("fonts/Texturina-VariableFont_opsz,wght.ttf");
+  font-family: Texturina;
+}
+
+/*--HEADER--*/
+
+main {
+  padding-top: 100px;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right:0px;
+  width: 100%;
+  height: 100px;
+  background-color: #111;
+}
+
+.header-brand {
+  color: #fff;
+  font-family: Texturina;
+  font-size: 30px;
+  font-weight: 900;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+header ul li {
+  display: inline-block;
+  float: left;
+  padding: 0 10px;
+}
+
+header ul li a {
+  color: #fff;
+  font-family: Texturina;
+  font-size: 20px;
+}
+
+.header-cases {
+  display: none;
+}
+
+/*--MAIN--*/
+
+.main-banner {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url(img/banner5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: table;
+}
+
+.vertical-middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.main-banner h2 {
+  font-family: Texturina;
+  font-size: 60px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 80px;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+  text-transform: uppercase;
+}
+
+.main-banner h1 {
+  padding-top: 20px;
+  font-size: 30px;
+  font-family: Texturina;
+  font-style: italic;
+  line-height: 40px;
+  color: #fff;
+  font-weight: 100px;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+
+.main-links div {
+  margin: 16px 16px 0;
+  width: calc(100% - 32px;);
+  background-color: #e2e2e2;
+  height: 100px;
+}
+
+.main-links div h3 {
+  font-family: Texturina;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 100px;
+  color: #111;
+  text-align: center;
+}
+
+/*--FOOTER--*/
+
+footer {
+  /* display: none; */
+  width: calc(100% - 80px);
+  padding: 40px;
+  margin-top: 20px;
+  background-color: #111;
+  overflow: hidden;
+}
+
+footer ul {
+  width: fit-content;
+  float: left;
+  padding-left: 20px;
+}
+
+footer ul li {
+  display: block;
+  list-style: none;
+}
+
+footer ul li a {
+  font-family: Texturina;
+  color: #fff;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+
+.footer-cases {
+  display: none;
+}
+
+.footer-sm {
+  width: 40px;
+  float: right;
+}
+
+.footer-sm img {
+  width: 100%;
+  margin-right: 10px;
+}
